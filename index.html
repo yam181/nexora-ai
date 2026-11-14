@@ -5,14 +5,225 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="google-site-verification" content="H9CmDFAEwSGVb-zSqQOQK1bDdVmDbduLUZRD6CAMAMc" />
+  <title>NEXORA AI | Your Intelligent AI Assistant</title>
+  <meta name="description" content="Discover NEXORA AI, an intelligent AI assistant created by Yamin Zoabi. Explore, learn, create and solve problems with AI.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#071426">
+  <link rel="canonical" href="https://yam181.github.io/nexora-ai/">
 
-  <meta name="description" content="NEXORA AI is an AI assistant created by Yamin Zoabi.">
-  <title>NEXORA AI | AI Assistant</title>
+  <meta name="google-site-verification" content="H9CmDFAEwSGVb-zSqQOQK1bDdVmDbduLUZRD6CAMAMc">
+
+  <meta property="og:title" content="NEXORA AI | Think Beyond Limits">
+  <meta property="og:description" content="Your intelligent space for learning, creating and exploring.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yam181.github.io/nexora-ai/">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      background:
+        radial-gradient(ellipse at 15% 20%, rgba(0, 119, 255, .22), transparent 40%),
+        radial-gradient(ellipse at 85% 75%, rgba(0, 210, 255, .13), transparent 40%),
+        #071426;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    nav {
+      width: 100%;
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,.07);
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #ffffff;
+    }
+
+    .logo span {
+      color: #39b9ff;
+    }
+
+    .status {
+      color: #7edcff;
+      font-size: 12px;
+      border: 1px solid rgba(57,185,255,.3);
+      background: rgba(57,185,255,.08);
+      padding: 9px 15px;
+      border-radius: 30px;
+      letter-spacing: 1px;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .hero {
+      max-width: 760px;
+      animation: appear 1s ease;
+    }
+
+    .symbol {
+      width: 85px;
+      height: 85px;
+      margin: 0 auto 30px;
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 39px;
+      color: #69d2ff;
+      background: linear-gradient(135deg, #123f75, #09213e);
+      border: 1px solid rgba(93,190,255,.35);
+      box-shadow: 0 0 45px rgba(0,140,255,.2);
+    }
+
+    .tag {
+      color: #57c5ff;
+      font-size: 12px;
+      letter-spacing: 4px;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-size: clamp(43px, 8vw, 76px);
+      line-height: 1.1;
+      letter-spacing: -2px;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      background: linear-gradient(90deg, #ffffff, #45baff, #8bdeff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .description {
+      color: #a9bfd7;
+      font-size: 17px;
+      line-height: 1.8;
+      max-width: 590px;
+      margin: 0 auto 35px;
+    }
+
+    .enter {
+      display: inline-block;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 17px 38px;
+      border-radius: 12px;
+      background: linear-gradient(100deg, #0879e9, #16b9e8);
+      box-shadow: 0 8px 35px rgba(0,145,255,.25);
+      transition: .3s ease;
+    }
+
+    .enter:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 45px rgba(0,170,255,.4);
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 48px;
+    }
+
+    .feature {
+      color: #b8d4ed;
+      background: rgba(255,255,255,.045);
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 30px;
+      padding: 11px 18px;
+      font-size: 13px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      color: #718ba5;
+      font-size: 12px;
+      border-top: 1px solid rgba(255,255,255,.07);
+    }
+
+    @keyframes appear {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      nav { padding: 20px 6%; }
+      .logo { font-size: 21px; }
+      main { padding: 60px 20px; }
+      .description { font-size: 15px; }
+    }
+  </style>
 </head>
-<body style="background:#101820;color:#00ff99;font-family:Arial;text-align:center;padding:50px">
-  <h1>NEXORA AI</h1>
-  <p>Your AI assistant, created by Yamin Zoabi.</p>
-  <a style="color:#00ff99" href="https://nexora--ai.streamlit.app/">Open NEXORA AI</a>
+
+<body>
+
+  <nav>
+    <div class="logo">NEXORA<span> AI</span></div>
+    <div class="status">INTELLIGENCE REDEFINED</div>
+  </nav>
+
+  <main>
+    <section class="hero">
+
+      <div class="symbol">✦</div>
+
+      <div class="tag">WELCOME TO THE FUTURE</div>
+
+      <h1>Think Beyond <span>Limits.</span></h1>
+
+      <p class="description">
+        Meet NEXORA AI — your intelligent space for learning,
+        creating, discovering and solving problems.
+        A smarter way to explore what's possible with artificial intelligence.
+      </p>
+
+      <a class="enter"
+         href="https://nexora--ai.streamlit.app/">
+        Enter NEXORA AI &nbsp; →
+      </a>
+
+      <div class="features">
+        <div class="feature">✦ Intelligent AI</div>
+        <div class="feature">◈ Learn & Create</div>
+        <div class="feature">⌘ Explore Ideas</div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    NEXORA AI © 2026 · Created by Yamin Zoabi
+    <br><br>
+    Built to explore a smarter future.
+  </footer>
+
 </body>
 </html>
