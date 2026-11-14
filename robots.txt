@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://yam181.github.io/nexora-ai/sitemap.xml
